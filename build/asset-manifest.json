@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8f25ce9.css",
+    "main.js": "/static/js/main.9c18013c.js",
+    "static/js/483.4622fca6.chunk.js": "/static/js/483.4622fca6.chunk.js",
+    "static/js/787.0a2eabc1.chunk.js": "/static/js/787.0a2eabc1.chunk.js",
+    "static/media/MaryamCropped.jpg": "/static/media/MaryamCropped.1d2f77320779fc96fac0.jpg",
+    "static/media/okn.jpg": "/static/media/okn.4c1535758ad14928feb7.jpg",
+    "static/media/BellaCropped.jpg": "/static/media/BellaCropped.92387fb5bf5ff7e78b22.jpg",
+    "static/media/larisaCropped2.jpg": "/static/media/larisaCropped2.7bdd62d2189d27bcee81.jpg",
+    "static/media/AnnaShCropped.png": "/static/media/AnnaShCropped.1695946bf868107fef08.png",
+    "static/media/IvanCropped.jpg": "/static/media/IvanCropped.b115a9385d040a72de3f.jpg",
+    "static/media/AnnaK.JPG": "/static/media/AnnaK.526dd71cbee9ab8eb53c.JPG",
+    "static/media/Vika.jpeg": "/static/media/Vika.43b19a1616b73cde0822.jpeg",
+    "static/media/hse_logo.png": "/static/media/hse_logo.0f8aac406a4f779fcd85.png",
+    "static/media/cities.geojson": "/static/media/cities.7856630603a0cf93c2f5.geojson",
+    "index.html": "/index.html",
+    "main.c8f25ce9.css.map": "/static/css/main.c8f25ce9.css.map",
+    "main.9c18013c.js.map": "/static/js/main.9c18013c.js.map",
+    "483.4622fca6.chunk.js.map": "/static/js/483.4622fca6.chunk.js.map",
+    "787.0a2eabc1.chunk.js.map": "/static/js/787.0a2eabc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8f25ce9.css",
+    "static/js/main.9c18013c.js"
+  ]
+}
