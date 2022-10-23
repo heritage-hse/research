@@ -1,0 +1,31 @@
+.section {
+  padding: 70px;
+  font-weight: 400;
+}
+
+@media (max-width: 820px) {
+  .section {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .section {
+    padding: 30px;
+  }
+}
+
+.title {
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 40px;
+  color: #9D9D9C;
+}
+
+@media (max-width: 550px) {
+  .title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
