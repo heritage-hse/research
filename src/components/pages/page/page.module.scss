@@ -1,0 +1,16 @@
+.page {
+  height: calc(100vh - 100px);
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  color: #9d9d9c;
+}

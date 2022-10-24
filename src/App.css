@@ -7,8 +7,13 @@
   pointer-events: none;
 }
 
+a {
+  text-decoration: none;
+  color: #9d9d9c;
+}
+
 a:hover {
-  color: #143373;
+  color: #9d9d9c;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,32 +1,33 @@
 import "./App.css";
-// import { About } from "./components/about/about";
-import { MapComponent } from "./components/map/map";
-// import { NavbarComponent } from "./components/navbar/navbar";
 import { Header } from "./components/header/header";
-import { Team } from "./components/team/team";
-import { Contact } from "./components/contact/contact";
 import { Footer } from "./components/footer/footer";
-import { Intro } from "./components/intro/intro";
-import { Units } from "./components/units/units";
-// import { Section } from "./components/section/section";
-// import { Geography } from "./components/geography/geography";
+import { Main } from "./components/main/main";
+import { Typology } from "./components/pages/typology/typology";
+import { Economics } from "./components/pages/economics/economics";
+import { Sociology } from "./components/pages/sociology/sociology";
+import { Documents } from "./components/pages/documents/documents";
+
+import { Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      {/* <NavbarComponent /> */}
-      <Header />
-      {/* <About /> */}
-      <Intro />
-      {/* <Geography /> */}
-      <MapComponent id='geography'/>
-      <Units id='units'/>
-      <Team id='team'/>
-      {/* <Section title='Типология'></Section>
-      <Section title='Экономика'></Section>
-      <Section title='Социология'></Section>
-      <Section title='Документы'></Section> */}
-      <Contact id='contact' />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <Main />
+            </>
+          }
+        />
+        <Route path="/typology" element={<Typology />} />
+        <Route path="/economics" element={<Economics />} />
+        <Route path="/sociology" element={<Sociology />} />
+        <Route path="/documents" element={<Documents />} />
+        <Route path="*" element={<Navigate replace to="/" />} />
+      </Routes>
       <Footer />
     </div>
   );

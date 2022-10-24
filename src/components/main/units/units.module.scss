@@ -1,0 +1,30 @@
+.units {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: 500px;
+  object-fit: fit;
+  border-radius: 20px;
+}
+
+.carousel {
+  width: 80%;
+  max-height: 500px;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .description {
+    display: none;
+  }
+  .image {
+    height: 300px;
+    object-fit: fit;
+  }
+}
