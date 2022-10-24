@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/research/static/css/main.70f0dba1.css",
-    "main.js": "/research/static/js/main.0bc2a194.js",
+    "main.css": "/research/static/css/main.b96ab00c.css",
+    "main.js": "/research/static/js/main.a3951021.js",
     "static/js/483.7b8aa9c1.chunk.js": "/research/static/js/483.7b8aa9c1.chunk.js",
     "static/js/787.0a2eabc1.chunk.js": "/research/static/js/787.0a2eabc1.chunk.js",
     "static/media/MaryamCropped.jpg": "/research/static/media/MaryamCropped.1d2f77320779fc96fac0.jpg",
@@ -15,13 +15,13 @@
     "static/media/hse_logo.png": "/research/static/media/hse_logo.0f8aac406a4f779fcd85.png",
     "static/media/cities.geojson": "/research/static/media/cities.7856630603a0cf93c2f5.geojson",
     "index.html": "/research/index.html",
-    "main.70f0dba1.css.map": "/research/static/css/main.70f0dba1.css.map",
-    "main.0bc2a194.js.map": "/research/static/js/main.0bc2a194.js.map",
+    "main.b96ab00c.css.map": "/research/static/css/main.b96ab00c.css.map",
+    "main.a3951021.js.map": "/research/static/js/main.a3951021.js.map",
     "483.7b8aa9c1.chunk.js.map": "/research/static/js/483.7b8aa9c1.chunk.js.map",
     "787.0a2eabc1.chunk.js.map": "/research/static/js/787.0a2eabc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70f0dba1.css",
-    "static/js/main.0bc2a194.js"
+    "static/css/main.b96ab00c.css",
+    "static/js/main.a3951021.js"
   ]
 }
