@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 import hselogo from "../../../asserts/images/hse_logo.png";
 
 export const NavbarComponent = () => {
@@ -16,11 +17,21 @@ export const NavbarComponent = () => {
           <Nav className="me-auto"></Nav>
           <Nav>
             <NavDropdown title="Исследование" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/research">Общая информация</NavDropdown.Item>
-              <NavDropdown.Item href="/research/typology">Типология</NavDropdown.Item>
-              <NavDropdown.Item href="/research/economics">Экономика</NavDropdown.Item>
-              <NavDropdown.Item href="/research/sociology">Социология</NavDropdown.Item>
-              <NavDropdown.Item href="/research/documents">Система документов</NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/research">Общая информация</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/typology">Типология</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/economics">Экономика</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/sociology">Социология</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/documents">Система документов</Link>
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/research/#team">Команда</Nav.Link>
             <Nav.Link href="/research/#contact">Контакты</Nav.Link>

@@ -23,7 +23,6 @@ export const Units = () => {
             </p>
             <Button variant="light">
               <Link className={styles.link} to="/typology">
-                {" "}
                 Подробнее
               </Link>
             </Button>
