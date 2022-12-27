@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
-import hselogo from "../../../asserts/images/hse_logo.png";
+import hselogo from "../../asserts/images/hse_logo.png";
 
 export const NavbarComponent = () => {
   return (
@@ -21,16 +21,17 @@ export const NavbarComponent = () => {
                 <Link to="/research">Общая информация</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/typology">Типология</Link>
+                <Link to="/documents">Градостроительное регулирование</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/economics">Экономика</Link>
+                <Link to="/economics">Экономика и финансы</Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/sociology">Социология</Link>
+                <Link to="/typology">Пространственное развитие</Link>
               </NavDropdown.Item>
+
               <NavDropdown.Item>
-                <Link to="/documents">Система документов</Link>
+                <Link to="/sociology">Социальные аспекты</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/research/#team">Команда</Nav.Link>

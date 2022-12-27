@@ -1,13 +1,45 @@
+@font-face {
+  font-family: HSESans;
+  font-weight: bold;
+  src: url("./fonts/HSESans-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HSESans;
+  src: url("./fonts/HSESans-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HSESans;
+  font-weight: 600;
+  src: url("./fonts/HSESans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HSESans;
+  src: url("./fonts/HSESans-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HSESans;
+  src: url("./fonts/HSESans-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HSESans;
+  src: url("./fonts/HSESans-SemiBold.otf") format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "HSESans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

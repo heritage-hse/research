@@ -8,8 +8,7 @@ import Map, {
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { useState, useRef, useCallback } from "react";
-import { Section } from "../../section/section";
-// import hse from '../../asserts/images/hse_logo.png'
+import { Section } from "../section/section";
 import cities from "./data/cities.geojson";
 
 export const MapComponent = () => {
@@ -19,35 +18,18 @@ export const MapComponent = () => {
   const MAP_TILER_KEY = "hE7PBueqYiS7hKSYUXP9";
 
   const layerStyle = {
-    id: "sign",
-    type: "symbol",
-
-    paint: {
-      "text-halo-color": "#FBF8F3",
-      "text-halo-width": 10,
-      "text-color": "#112D69",
-    },
-
-    layout: {
-      "icon-allow-overlap": true,
-      "text-allow-overlap": true,
-      "text-field": ["get", "City"],
-      "text-offset": [0, 1.25],
-      "text-anchor": "top",
-      "text-transform": "uppercase",
-      "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
-    },
-  };
-  const layerStyle2 = {
     id: "point",
     type: "circle",
-
     paint: {
       "circle-radius": 10,
-      "circle-color": "#2651A6",
-      "circle-stroke-color": "#fff",
-      "circle-stroke-width": 2,
+      "circle-color": "#234A9A",
     },
+    // layout: {
+    //   "text-field": ["get", "City"],
+    //   "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+    //   "text-offset": [0, 1.25],
+    //   "text-anchor": "top",
+    // },
   };
 
   const onHover = useCallback((event) => {
@@ -66,12 +48,7 @@ export const MapComponent = () => {
       <Map
         mapLib={maplibregl}
         mapStyle={`https://api.maptiler.com/maps/voyager/style.json?key=${MAP_TILER_KEY}`}
-        style={{
-          width: "80%",
-          height: "550px",
-          margin: "auto",
-          borderRadius: "20px",
-        }}
+        style={{ width: "80%", height: "550px", margin: "auto" }}
         onMouseMove={onHover}
         interactiveLayerIds={["cities"]}
         initialViewState={{
@@ -86,11 +63,10 @@ export const MapComponent = () => {
         <FullscreenControl />
         <NavigationControl />
         <ScaleControl />
+
         <Source type="geojson" data={cities}>
           <Layer {...layerStyle} />
-          <Layer {...layerStyle2} />
         </Source>
-
         {hoverInfo && (
           <div
             className="tooltip"

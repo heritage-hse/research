@@ -1,18 +1,17 @@
-import { Intro } from "./intro/intro";
-import { Units } from "./units/units";
-import { MapComponent } from "./map/map";
-import { Team } from "./team/team";
-import { Contact } from "./contact/contact";
+import { Intro } from "../intro/intro";
+import { Geography } from "../geography/geography";
+import { Units } from "../units/units";
+import { Contact } from "../contact/contact";
+import { Team } from "../team/team";
 
 export const Main = () => {
   return (
     <>
-     <Intro />
-              <Units  />
-              <MapComponent  />
-              <Team  />
-              <Contact />
-    
+      <Intro />
+      <Geography />
+      <Units />
+      <Team />
+      <Contact />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import Accordion from "react-bootstrap/Accordion";
-import { Section } from "../../section/section";
+import { Section } from "../section/section";
 import styles from "./intro.module.scss";
 
 export const Intro = () => {
@@ -7,7 +7,7 @@ export const Intro = () => {
     <Section>
       <div className={styles.about}>
         <div className={styles.description}>
-          {/* <span className={styles.sign}>ОКН в городской среде</span> */}
+          <span className={styles.sign}>ОКН в городской среде</span>
           <p>
             Исследование проводится в рамках стратегического проекта НИУ ВШЭ{" "}
             <a

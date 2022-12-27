@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  justify-content: center;
 }
 
 .sign {
@@ -31,21 +30,23 @@
   .intro {
     width: 100%;
   }
-
+  
   .about {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-
+  
   .description {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
-
+  
   .sign {
     display: none;
   }
+  
+
 }
