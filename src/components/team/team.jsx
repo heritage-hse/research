@@ -11,8 +11,8 @@ import styles from "./team.module.scss";
 
 export const Team = () => {
   return (
-    <Section title="Команда проекта">
-      <div className={styles.team} id='team'>
+    <Section title="Команда проекта" id="team">
+      <div className={styles.team} id="team">
         <Figure className={styles.member}>
           <Figure.Image
             className={styles.image}

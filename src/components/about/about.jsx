@@ -58,7 +58,7 @@ export const About = () => {
               <div className="about-icon">
                 <img src="images/index/about-icon_3.png" alt="" />
               </div>
-              <h3 className="subtitle_2">Социология</h3>
+              <h3 className="subtitle_2">Социальные аспекты</h3>
               <p>
                 Коротко о направлении исследования.Коротко о направлении
                 исследования.Коротко о направлении исследования.

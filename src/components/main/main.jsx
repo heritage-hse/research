@@ -10,8 +10,8 @@ export const Main = () => {
       <Intro />
       <Geography />
       <Units />
-      <Team />
-      <Contact />
+      <Team id="team" />
+      <Contact id="contact" />
     </>
   );
 };
