@@ -1,9 +1,10 @@
 .page {
-  height: calc(100vh - 100px);
+  height: maxmin(100%, calc(100vh - 100px));
 }
 
 .section {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .content {

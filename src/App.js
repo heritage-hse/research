@@ -10,30 +10,29 @@ import { Economics } from "./components/pages/economics/economics";
 import { Sociology } from "./components/pages/sociology/sociology";
 import { Documents } from "./components/pages/documents/documents";
 
-
 import { Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-    <Routes>
-      <Route
-        path="/"
-        element={
-          <>
-            <Header />
-            <Main />
-          </>
-        }
-      />
-      <Route path="/typology" element={<Typology />} />
-      <Route path="/economics" element={<Economics />} />
-      <Route path="/sociology" element={<Sociology />} />
-      <Route path="/documents" element={<Documents />} />
-      <Route path="*" element={<Navigate replace to="/" />} />
-    </Routes>
-    <Footer />
-  </div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <Main />
+            </>
+          }
+        />
+        <Route path="/typology" element={<Typology />} />
+        <Route path="/economics" element={<Economics />} />
+        <Route path="/sociology" element={<Sociology />} />
+        <Route path="/documents" element={<Documents />} />
+        <Route path="*" element={<Navigate replace to="/" />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 
