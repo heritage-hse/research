@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/research/static/css/main.40b9ef30.css",
-    "main.js": "/research/static/js/main.13f229e6.js",
+    "main.css": "/research/static/css/main.b2bb7d33.css",
+    "main.js": "/research/static/js/main.d1958542.js",
     "static/media/Nizhny.jpg": "/research/static/media/Nizhny.6066db3f7253daed6780.jpg",
     "static/media/okn.jpg": "/research/static/media/okn.4c1535758ad14928feb7.jpg",
     "static/media/Ekaterinburg.jpg": "/research/static/media/Ekaterinburg.f7e16e03c0ca90701928.jpg",
@@ -27,11 +27,11 @@
     "static/media/location.svg": "/research/static/media/location.186a63eccfb3eeb2e9fc794cf9613d9f.svg",
     "static/media/economics.svg": "/research/static/media/economics.d2cfed05ec7782b6c48d466dd3e429d0.svg",
     "index.html": "/research/index.html",
-    "main.40b9ef30.css.map": "/research/static/css/main.40b9ef30.css.map",
-    "main.13f229e6.js.map": "/research/static/js/main.13f229e6.js.map"
+    "main.b2bb7d33.css.map": "/research/static/css/main.b2bb7d33.css.map",
+    "main.d1958542.js.map": "/research/static/js/main.d1958542.js.map"
   },
   "entrypoints": [
-    "static/css/main.40b9ef30.css",
-    "static/js/main.13f229e6.js"
+    "static/css/main.b2bb7d33.css",
+    "static/js/main.d1958542.js"
   ]
 }
